@@ -1,0 +1,49 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      retries: 12
+    networks: [data]
+  api:
+    build: ./backend
+    environment:
+      DB_HOST: db
+      DB_USER: ${POSTGRES_USER}
+      DB_PASSWORD: ${POSTGRES_PASSWORD}
+      DB_NAME: ${POSTGRES_DB}
+      JWT_SECRET: ${JWT_SECRET}
+      DEMO_SEED: ${DEMO_SEED:-false}
+      DEMO_EMPLOYEE_PASSWORD: ${DEMO_EMPLOYEE_PASSWORD:-}
+      DEMO_IT_PASSWORD: ${DEMO_IT_PASSWORD:-}
+      DEMO_HR_PASSWORD: ${DEMO_HR_PASSWORD:-}
+      DEMO_ADMIN_PASSWORD: ${DEMO_ADMIN_PASSWORD:-}
+      DEMO_FAC_PASSWORD: ${DEMO_FAC_PASSWORD:-}
+      DEMO_FIN_PASSWORD: ${DEMO_FIN_PASSWORD:-}
+      DEMO_PROC_PASSWORD: ${DEMO_PROC_PASSWORD:-}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"]
+      interval: 5s
+      start_period: 10s
+      retries: 12
+    depends_on:
+      db: {condition: service_healthy}
+    networks: [edge, data]
+  web:
+    build: ./frontend
+    ports: ["443:443", "80:80"]
+    depends_on:
+      api: {condition: service_healthy}
+    networks: [edge]
+volumes:
+  pgdata:
+networks:
+  edge: {}
+  data: {internal: true}

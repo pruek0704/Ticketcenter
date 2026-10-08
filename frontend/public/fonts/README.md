@@ -1,0 +1,1 @@
+Noto Sans Thai from Google Fonts, licensed under the SIL Open Font License (OFL.txt). Downloaded 2026-10-08 from the official Google Fonts CSS API; binary URLs are fonts.gstatic.com. Self-hosted so application typography does not require third-party requests.

@@ -1,0 +1,1064 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T14:38:39.525392+00:00",
+  "title": "Design System: TicketCenter",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Office Ground",
+        "tonalRamp": [
+          "oklch(15.00% 0.0045 258.32)",
+          "oklch(26.43% 0.0045 258.32)",
+          "oklch(37.86% 0.0045 258.32)",
+          "oklch(49.29% 0.0045 258.32)",
+          "oklch(60.71% 0.0045 258.32)",
+          "oklch(72.14% 0.0045 258.32)",
+          "oklch(83.57% 0.0045 258.32)",
+          "oklch(95.00% 0.0045 258.32)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Working White",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 89.88)",
+          "oklch(26.43% 0.0000 89.88)",
+          "oklch(37.86% 0.0000 89.88)",
+          "oklch(49.29% 0.0000 89.88)",
+          "oklch(60.71% 0.0000 89.88)",
+          "oklch(72.14% 0.0000 89.88)",
+          "oklch(83.57% 0.0000 89.88)",
+          "oklch(95.00% 0.0000 89.88)"
+        ]
+      },
+      "surface-soft": {
+        "role": "neutral",
+        "displayName": "Quiet Surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.0045 258.32)",
+          "oklch(26.43% 0.0045 258.32)",
+          "oklch(37.86% 0.0045 258.32)",
+          "oklch(49.29% 0.0045 258.32)",
+          "oklch(60.71% 0.0045 258.32)",
+          "oklch(72.14% 0.0045 258.32)",
+          "oklch(83.57% 0.0045 258.32)",
+          "oklch(95.00% 0.0045 258.32)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Slate Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0478 259.54)",
+          "oklch(26.43% 0.0478 259.54)",
+          "oklch(37.86% 0.0478 259.54)",
+          "oklch(49.29% 0.0478 259.54)",
+          "oklch(60.71% 0.0478 259.54)",
+          "oklch(72.14% 0.0478 259.54)",
+          "oklch(83.57% 0.0478 259.54)",
+          "oklch(95.00% 0.0478 259.54)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Secondary Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0400 256.41)",
+          "oklch(26.43% 0.0400 256.41)",
+          "oklch(37.86% 0.0400 256.41)",
+          "oklch(49.29% 0.0400 256.41)",
+          "oklch(60.71% 0.0400 256.41)",
+          "oklch(72.14% 0.0400 256.41)",
+          "oklch(83.57% 0.0400 256.41)",
+          "oklch(95.00% 0.0400 256.41)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Cool Divider",
+        "tonalRamp": [
+          "oklch(15.00% 0.0139 258.35)",
+          "oklch(26.43% 0.0139 258.35)",
+          "oklch(37.86% 0.0139 258.35)",
+          "oklch(49.29% 0.0139 258.35)",
+          "oklch(60.71% 0.0139 258.35)",
+          "oklch(72.14% 0.0139 258.35)",
+          "oklch(83.57% 0.0139 258.35)",
+          "oklch(95.00% 0.0139 258.35)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Service Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.1736 264.90)",
+          "oklch(26.43% 0.1736 264.90)",
+          "oklch(37.86% 0.1736 264.90)",
+          "oklch(49.29% 0.1736 264.90)",
+          "oklch(60.71% 0.1736 264.90)",
+          "oklch(72.14% 0.1736 264.90)",
+          "oklch(83.57% 0.1736 264.90)",
+          "oklch(95.00% 0.1736 264.90)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Service Blue Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.1472 264.71)",
+          "oklch(26.43% 0.1472 264.71)",
+          "oklch(37.86% 0.1472 264.71)",
+          "oklch(49.29% 0.1472 264.71)",
+          "oklch(60.71% 0.1472 264.71)",
+          "oklch(72.14% 0.1472 264.71)",
+          "oklch(83.57% 0.1472 264.71)",
+          "oklch(95.00% 0.1472 264.71)"
+        ]
+      },
+      "selected": {
+        "role": "primary",
+        "displayName": "Blue Selection",
+        "tonalRamp": [
+          "oklch(15.00% 0.0212 268.43)",
+          "oklch(26.43% 0.0212 268.43)",
+          "oklch(37.86% 0.0212 268.43)",
+          "oklch(49.29% 0.0212 268.43)",
+          "oklch(60.71% 0.0212 268.43)",
+          "oklch(72.14% 0.0212 268.43)",
+          "oklch(83.57% 0.0212 268.43)",
+          "oklch(95.00% 0.0212 268.43)"
+        ]
+      },
+      "rail": {
+        "role": "primary",
+        "displayName": "Slate Rail",
+        "tonalRamp": [
+          "oklch(15.00% 0.0524 263.93)",
+          "oklch(26.43% 0.0524 263.93)",
+          "oklch(37.86% 0.0524 263.93)",
+          "oklch(49.29% 0.0524 263.93)",
+          "oklch(60.71% 0.0524 263.93)",
+          "oklch(72.14% 0.0524 263.93)",
+          "oklch(83.57% 0.0524 263.93)",
+          "oklch(95.00% 0.0524 263.93)"
+        ]
+      },
+      "rail-ink": {
+        "role": "primary",
+        "displayName": "Rail Label White",
+        "tonalRamp": [
+          "oklch(15.00% 0.0124 271.29)",
+          "oklch(26.43% 0.0124 271.29)",
+          "oklch(37.86% 0.0124 271.29)",
+          "oklch(49.29% 0.0124 271.29)",
+          "oklch(60.71% 0.0124 271.29)",
+          "oklch(72.14% 0.0124 271.29)",
+          "oklch(83.57% 0.0124 271.29)",
+          "oklch(95.00% 0.0124 271.29)"
+        ]
+      },
+      "rail-muted": {
+        "role": "primary",
+        "displayName": "Secondary Rail Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0361 264.36)",
+          "oklch(26.43% 0.0361 264.36)",
+          "oklch(37.86% 0.0361 264.36)",
+          "oklch(49.29% 0.0361 264.36)",
+          "oklch(60.71% 0.0361 264.36)",
+          "oklch(72.14% 0.0361 264.36)",
+          "oklch(83.57% 0.0361 264.36)",
+          "oklch(95.00% 0.0361 264.36)"
+        ]
+      },
+      "open": {
+        "role": "secondary",
+        "displayName": "Open",
+        "tonalRamp": [
+          "oklch(15.00% 0.1066 67.55)",
+          "oklch(26.43% 0.1066 67.55)",
+          "oklch(37.86% 0.1066 67.55)",
+          "oklch(49.29% 0.1066 67.55)",
+          "oklch(60.71% 0.1066 67.55)",
+          "oklch(72.14% 0.1066 67.55)",
+          "oklch(83.57% 0.1066 67.55)",
+          "oklch(95.00% 0.1066 67.55)"
+        ]
+      },
+      "open-bg": {
+        "role": "secondary",
+        "displayName": "Open Bg",
+        "tonalRamp": [
+          "oklch(15.00% 0.0368 84.59)",
+          "oklch(26.43% 0.0368 84.59)",
+          "oklch(37.86% 0.0368 84.59)",
+          "oklch(49.29% 0.0368 84.59)",
+          "oklch(60.71% 0.0368 84.59)",
+          "oklch(72.14% 0.0368 84.59)",
+          "oklch(83.57% 0.0368 84.59)",
+          "oklch(95.00% 0.0368 84.59)"
+        ]
+      },
+      "progress": {
+        "role": "secondary",
+        "displayName": "Progress",
+        "tonalRamp": [
+          "oklch(15.00% 0.1450 298.09)",
+          "oklch(26.43% 0.1450 298.09)",
+          "oklch(37.86% 0.1450 298.09)",
+          "oklch(49.29% 0.1450 298.09)",
+          "oklch(60.71% 0.1450 298.09)",
+          "oklch(72.14% 0.1450 298.09)",
+          "oklch(83.57% 0.1450 298.09)",
+          "oklch(95.00% 0.1450 298.09)"
+        ]
+      },
+      "progress-bg": {
+        "role": "secondary",
+        "displayName": "Progress Bg",
+        "tonalRamp": [
+          "oklch(15.00% 0.0222 302.93)",
+          "oklch(26.43% 0.0222 302.93)",
+          "oklch(37.86% 0.0222 302.93)",
+          "oklch(49.29% 0.0222 302.93)",
+          "oklch(60.71% 0.0222 302.93)",
+          "oklch(72.14% 0.0222 302.93)",
+          "oklch(83.57% 0.0222 302.93)",
+          "oklch(95.00% 0.0222 302.93)"
+        ]
+      },
+      "done": {
+        "role": "secondary",
+        "displayName": "Done",
+        "tonalRamp": [
+          "oklch(15.00% 0.0883 161.29)",
+          "oklch(26.43% 0.0883 161.29)",
+          "oklch(37.86% 0.0883 161.29)",
+          "oklch(49.29% 0.0883 161.29)",
+          "oklch(60.71% 0.0883 161.29)",
+          "oklch(72.14% 0.0883 161.29)",
+          "oklch(83.57% 0.0883 161.29)",
+          "oklch(95.00% 0.0883 161.29)"
+        ]
+      },
+      "done-bg": {
+        "role": "secondary",
+        "displayName": "Done Bg",
+        "tonalRamp": [
+          "oklch(15.00% 0.0223 155.92)",
+          "oklch(26.43% 0.0223 155.92)",
+          "oklch(37.86% 0.0223 155.92)",
+          "oklch(49.29% 0.0223 155.92)",
+          "oklch(60.71% 0.0223 155.92)",
+          "oklch(72.14% 0.0223 155.92)",
+          "oklch(83.57% 0.0223 155.92)",
+          "oklch(95.00% 0.0223 155.92)"
+        ]
+      },
+      "danger": {
+        "role": "secondary",
+        "displayName": "Danger",
+        "tonalRamp": [
+          "oklch(15.00% 0.1580 22.56)",
+          "oklch(26.43% 0.1580 22.56)",
+          "oklch(37.86% 0.1580 22.56)",
+          "oklch(49.29% 0.1580 22.56)",
+          "oklch(60.71% 0.1580 22.56)",
+          "oklch(72.14% 0.1580 22.56)",
+          "oklch(83.57% 0.1580 22.56)",
+          "oklch(95.00% 0.1580 22.56)"
+        ]
+      },
+      "danger-bg": {
+        "role": "secondary",
+        "displayName": "Danger Bg",
+        "tonalRamp": [
+          "oklch(15.00% 0.0162 17.44)",
+          "oklch(26.43% 0.0162 17.44)",
+          "oklch(37.86% 0.0162 17.44)",
+          "oklch(49.29% 0.0162 17.44)",
+          "oklch(60.71% 0.0162 17.44)",
+          "oklch(72.14% 0.0162 17.44)",
+          "oklch(83.57% 0.0162 17.44)",
+          "oklch(95.00% 0.0162 17.44)"
+        ]
+      },
+      "hr": {
+        "role": "secondary",
+        "displayName": "Hr",
+        "tonalRamp": [
+          "oklch(15.00% 0.0913 357.14)",
+          "oklch(26.43% 0.0913 357.14)",
+          "oklch(37.86% 0.0913 357.14)",
+          "oklch(49.29% 0.0913 357.14)",
+          "oklch(60.71% 0.0913 357.14)",
+          "oklch(72.14% 0.0913 357.14)",
+          "oklch(83.57% 0.0913 357.14)",
+          "oklch(95.00% 0.0913 357.14)"
+        ]
+      },
+      "hr-bg": {
+        "role": "secondary",
+        "displayName": "Hr Bg",
+        "tonalRamp": [
+          "oklch(15.00% 0.0180 351.15)",
+          "oklch(26.43% 0.0180 351.15)",
+          "oklch(37.86% 0.0180 351.15)",
+          "oklch(49.29% 0.0180 351.15)",
+          "oklch(60.71% 0.0180 351.15)",
+          "oklch(72.14% 0.0180 351.15)",
+          "oklch(83.57% 0.0180 351.15)",
+          "oklch(95.00% 0.0180 351.15)"
+        ]
+      },
+      "it": {
+        "role": "secondary",
+        "displayName": "It",
+        "tonalRamp": [
+          "oklch(15.00% 0.0760 238.38)",
+          "oklch(26.43% 0.0760 238.38)",
+          "oklch(37.86% 0.0760 238.38)",
+          "oklch(49.29% 0.0760 238.38)",
+          "oklch(60.71% 0.0760 238.38)",
+          "oklch(72.14% 0.0760 238.38)",
+          "oklch(83.57% 0.0760 238.38)",
+          "oklch(95.00% 0.0760 238.38)"
+        ]
+      },
+      "it-bg": {
+        "role": "secondary",
+        "displayName": "It Bg",
+        "tonalRamp": [
+          "oklch(15.00% 0.0126 236.63)",
+          "oklch(26.43% 0.0126 236.63)",
+          "oklch(37.86% 0.0126 236.63)",
+          "oklch(49.29% 0.0126 236.63)",
+          "oklch(60.71% 0.0126 236.63)",
+          "oklch(72.14% 0.0126 236.63)",
+          "oklch(83.57% 0.0126 236.63)",
+          "oklch(95.00% 0.0126 236.63)"
+        ]
+      },
+      "chat-ground": {
+        "role": "neutral",
+        "displayName": "Cool Conversation",
+        "tonalRamp": [
+          "oklch(15.00% 0.0074 260.73)",
+          "oklch(26.43% 0.0074 260.73)",
+          "oklch(37.86% 0.0074 260.73)",
+          "oklch(49.29% 0.0074 260.73)",
+          "oklch(60.71% 0.0074 260.73)",
+          "oklch(72.14% 0.0074 260.73)",
+          "oklch(83.57% 0.0074 260.73)",
+          "oklch(95.00% 0.0074 260.73)"
+        ]
+      },
+      "chat-mine": {
+        "role": "neutral",
+        "displayName": "Own Message Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.1736 264.90)",
+          "oklch(26.43% 0.1736 264.90)",
+          "oklch(37.86% 0.1736 264.90)",
+          "oklch(49.29% 0.1736 264.90)",
+          "oklch(60.71% 0.1736 264.90)",
+          "oklch(72.14% 0.1736 264.90)",
+          "oklch(83.57% 0.1736 264.90)",
+          "oklch(95.00% 0.1736 264.90)"
+        ]
+      },
+      "ground-dark": {
+        "role": "neutral",
+        "displayName": "Deep Office Ground",
+        "tonalRamp": [
+          "oklch(15.00% 0.0332 263.62)",
+          "oklch(26.43% 0.0332 263.62)",
+          "oklch(37.86% 0.0332 263.62)",
+          "oklch(49.29% 0.0332 263.62)",
+          "oklch(60.71% 0.0332 263.62)",
+          "oklch(72.14% 0.0332 263.62)",
+          "oklch(83.57% 0.0332 263.62)",
+          "oklch(95.00% 0.0332 263.62)"
+        ]
+      },
+      "surface-dark": {
+        "role": "neutral",
+        "displayName": "Slate Working Surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.0400 261.97)",
+          "oklch(26.43% 0.0400 261.97)",
+          "oklch(37.86% 0.0400 261.97)",
+          "oklch(49.29% 0.0400 261.97)",
+          "oklch(60.71% 0.0400 261.97)",
+          "oklch(72.14% 0.0400 261.97)",
+          "oklch(83.57% 0.0400 261.97)",
+          "oklch(95.00% 0.0400 261.97)"
+        ]
+      },
+      "surface-soft-dark": {
+        "role": "neutral",
+        "displayName": "Quiet Slate Surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.0414 259.80)",
+          "oklch(26.43% 0.0414 259.80)",
+          "oklch(37.86% 0.0414 259.80)",
+          "oklch(49.29% 0.0414 259.80)",
+          "oklch(60.71% 0.0414 259.80)",
+          "oklch(72.14% 0.0414 259.80)",
+          "oklch(83.57% 0.0414 259.80)",
+          "oklch(95.00% 0.0414 259.80)"
+        ]
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Pale Reading Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0120 259.82)",
+          "oklch(26.43% 0.0120 259.82)",
+          "oklch(37.86% 0.0120 259.82)",
+          "oklch(49.29% 0.0120 259.82)",
+          "oklch(60.71% 0.0120 259.82)",
+          "oklch(72.14% 0.0120 259.82)",
+          "oklch(83.57% 0.0120 259.82)",
+          "oklch(95.00% 0.0120 259.82)"
+        ]
+      },
+      "muted-dark": {
+        "role": "neutral",
+        "displayName": "Secondary Pale Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0317 258.94)",
+          "oklch(26.43% 0.0317 258.94)",
+          "oklch(37.86% 0.0317 258.94)",
+          "oklch(49.29% 0.0317 258.94)",
+          "oklch(60.71% 0.0317 258.94)",
+          "oklch(72.14% 0.0317 258.94)",
+          "oklch(83.57% 0.0317 258.94)",
+          "oklch(95.00% 0.0317 258.94)"
+        ]
+      },
+      "line-dark": {
+        "role": "neutral",
+        "displayName": "Slate Divider",
+        "tonalRamp": [
+          "oklch(15.00% 0.0469 259.16)",
+          "oklch(26.43% 0.0469 259.16)",
+          "oklch(37.86% 0.0469 259.16)",
+          "oklch(49.29% 0.0469 259.16)",
+          "oklch(60.71% 0.0469 259.16)",
+          "oklch(72.14% 0.0469 259.16)",
+          "oklch(83.57% 0.0469 259.16)",
+          "oklch(95.00% 0.0469 259.16)"
+        ]
+      },
+      "accent-dark": {
+        "role": "primary",
+        "displayName": "Pale Service Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.0895 264.19)",
+          "oklch(26.43% 0.0895 264.19)",
+          "oklch(37.86% 0.0895 264.19)",
+          "oklch(49.29% 0.0895 264.19)",
+          "oklch(60.71% 0.0895 264.19)",
+          "oklch(72.14% 0.0895 264.19)",
+          "oklch(83.57% 0.0895 264.19)",
+          "oklch(95.00% 0.0895 264.19)"
+        ]
+      },
+      "accent-hover-dark": {
+        "role": "primary",
+        "displayName": "Pale Service Blue Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.0606 265.56)",
+          "oklch(26.43% 0.0606 265.56)",
+          "oklch(37.86% 0.0606 265.56)",
+          "oklch(49.29% 0.0606 265.56)",
+          "oklch(60.71% 0.0606 265.56)",
+          "oklch(72.14% 0.0606 265.56)",
+          "oklch(83.57% 0.0606 265.56)",
+          "oklch(95.00% 0.0606 265.56)"
+        ]
+      },
+      "selected-dark": {
+        "role": "primary",
+        "displayName": "Deep Blue Selection",
+        "tonalRamp": [
+          "oklch(15.00% 0.0705 262.39)",
+          "oklch(26.43% 0.0705 262.39)",
+          "oklch(37.86% 0.0705 262.39)",
+          "oklch(49.29% 0.0705 262.39)",
+          "oklch(60.71% 0.0705 262.39)",
+          "oklch(72.14% 0.0705 262.39)",
+          "oklch(83.57% 0.0705 262.39)",
+          "oklch(95.00% 0.0705 262.39)"
+        ]
+      },
+      "rail-dark": {
+        "role": "primary",
+        "displayName": "Deep Slate Rail",
+        "tonalRamp": [
+          "oklch(15.00% 0.0430 264.08)",
+          "oklch(26.43% 0.0430 264.08)",
+          "oklch(37.86% 0.0430 264.08)",
+          "oklch(49.29% 0.0430 264.08)",
+          "oklch(60.71% 0.0430 264.08)",
+          "oklch(72.14% 0.0430 264.08)",
+          "oklch(83.57% 0.0430 264.08)",
+          "oklch(95.00% 0.0430 264.08)"
+        ]
+      },
+      "open-dark": {
+        "role": "secondary",
+        "displayName": "Open Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.1008 82.98)",
+          "oklch(26.43% 0.1008 82.98)",
+          "oklch(37.86% 0.1008 82.98)",
+          "oklch(49.29% 0.1008 82.98)",
+          "oklch(60.71% 0.1008 82.98)",
+          "oklch(72.14% 0.1008 82.98)",
+          "oklch(83.57% 0.1008 82.98)",
+          "oklch(95.00% 0.1008 82.98)"
+        ]
+      },
+      "open-bg-dark": {
+        "role": "secondary",
+        "displayName": "Open Bg Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0448 77.70)",
+          "oklch(26.43% 0.0448 77.70)",
+          "oklch(37.86% 0.0448 77.70)",
+          "oklch(49.29% 0.0448 77.70)",
+          "oklch(60.71% 0.0448 77.70)",
+          "oklch(72.14% 0.0448 77.70)",
+          "oklch(83.57% 0.0448 77.70)",
+          "oklch(95.00% 0.0448 77.70)"
+        ]
+      },
+      "progress-dark": {
+        "role": "secondary",
+        "displayName": "Progress Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0888 302.22)",
+          "oklch(26.43% 0.0888 302.22)",
+          "oklch(37.86% 0.0888 302.22)",
+          "oklch(49.29% 0.0888 302.22)",
+          "oklch(60.71% 0.0888 302.22)",
+          "oklch(72.14% 0.0888 302.22)",
+          "oklch(83.57% 0.0888 302.22)",
+          "oklch(95.00% 0.0888 302.22)"
+        ]
+      },
+      "progress-bg-dark": {
+        "role": "secondary",
+        "displayName": "Progress Bg Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0583 300.07)",
+          "oklch(26.43% 0.0583 300.07)",
+          "oklch(37.86% 0.0583 300.07)",
+          "oklch(49.29% 0.0583 300.07)",
+          "oklch(60.71% 0.0583 300.07)",
+          "oklch(72.14% 0.0583 300.07)",
+          "oklch(83.57% 0.0583 300.07)",
+          "oklch(95.00% 0.0583 300.07)"
+        ]
+      },
+      "done-dark": {
+        "role": "secondary",
+        "displayName": "Done Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0898 154.52)",
+          "oklch(26.43% 0.0898 154.52)",
+          "oklch(37.86% 0.0898 154.52)",
+          "oklch(49.29% 0.0898 154.52)",
+          "oklch(60.71% 0.0898 154.52)",
+          "oklch(72.14% 0.0898 154.52)",
+          "oklch(83.57% 0.0898 154.52)",
+          "oklch(95.00% 0.0898 154.52)"
+        ]
+      },
+      "done-bg-dark": {
+        "role": "secondary",
+        "displayName": "Done Bg Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0430 159.85)",
+          "oklch(26.43% 0.0430 159.85)",
+          "oklch(37.86% 0.0430 159.85)",
+          "oklch(49.29% 0.0430 159.85)",
+          "oklch(60.71% 0.0430 159.85)",
+          "oklch(72.14% 0.0430 159.85)",
+          "oklch(83.57% 0.0430 159.85)",
+          "oklch(95.00% 0.0430 159.85)"
+        ]
+      },
+      "danger-dark": {
+        "role": "secondary",
+        "displayName": "Danger Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0840 18.96)",
+          "oklch(26.43% 0.0840 18.96)",
+          "oklch(37.86% 0.0840 18.96)",
+          "oklch(49.29% 0.0840 18.96)",
+          "oklch(60.71% 0.0840 18.96)",
+          "oklch(72.14% 0.0840 18.96)",
+          "oklch(83.57% 0.0840 18.96)",
+          "oklch(95.00% 0.0840 18.96)"
+        ]
+      },
+      "danger-bg-dark": {
+        "role": "secondary",
+        "displayName": "Danger Bg Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0431 10.61)",
+          "oklch(26.43% 0.0431 10.61)",
+          "oklch(37.86% 0.0431 10.61)",
+          "oklch(49.29% 0.0431 10.61)",
+          "oklch(60.71% 0.0431 10.61)",
+          "oklch(72.14% 0.0431 10.61)",
+          "oklch(83.57% 0.0431 10.61)",
+          "oklch(95.00% 0.0431 10.61)"
+        ]
+      },
+      "hr-dark": {
+        "role": "secondary",
+        "displayName": "Hr Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0605 352.85)",
+          "oklch(26.43% 0.0605 352.85)",
+          "oklch(37.86% 0.0605 352.85)",
+          "oklch(49.29% 0.0605 352.85)",
+          "oklch(60.71% 0.0605 352.85)",
+          "oklch(72.14% 0.0605 352.85)",
+          "oklch(83.57% 0.0605 352.85)",
+          "oklch(95.00% 0.0605 352.85)"
+        ]
+      },
+      "hr-bg-dark": {
+        "role": "secondary",
+        "displayName": "Hr Bg Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0368 351.44)",
+          "oklch(26.43% 0.0368 351.44)",
+          "oklch(37.86% 0.0368 351.44)",
+          "oklch(49.29% 0.0368 351.44)",
+          "oklch(60.71% 0.0368 351.44)",
+          "oklch(72.14% 0.0368 351.44)",
+          "oklch(83.57% 0.0368 351.44)",
+          "oklch(95.00% 0.0368 351.44)"
+        ]
+      },
+      "it-dark": {
+        "role": "secondary",
+        "displayName": "It Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0517 238.53)",
+          "oklch(26.43% 0.0517 238.53)",
+          "oklch(37.86% 0.0517 238.53)",
+          "oklch(49.29% 0.0517 238.53)",
+          "oklch(60.71% 0.0517 238.53)",
+          "oklch(72.14% 0.0517 238.53)",
+          "oklch(83.57% 0.0517 238.53)",
+          "oklch(95.00% 0.0517 238.53)"
+        ]
+      },
+      "it-bg-dark": {
+        "role": "secondary",
+        "displayName": "It Bg Dark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0414 237.54)",
+          "oklch(26.43% 0.0414 237.54)",
+          "oklch(37.86% 0.0414 237.54)",
+          "oklch(49.29% 0.0414 237.54)",
+          "oklch(60.71% 0.0414 237.54)",
+          "oklch(72.14% 0.0414 237.54)",
+          "oklch(83.57% 0.0414 237.54)",
+          "oklch(95.00% 0.0414 237.54)"
+        ]
+      },
+      "chat-ground-dark": {
+        "role": "neutral",
+        "displayName": "Deep Conversation Ground",
+        "tonalRamp": [
+          "oklch(15.00% 0.0392 260.97)",
+          "oklch(26.43% 0.0392 260.97)",
+          "oklch(37.86% 0.0392 260.97)",
+          "oklch(49.29% 0.0392 260.97)",
+          "oklch(60.71% 0.0392 260.97)",
+          "oklch(72.14% 0.0392 260.97)",
+          "oklch(83.57% 0.0392 260.97)",
+          "oklch(95.00% 0.0392 260.97)"
+        ]
+      },
+      "chat-mine-dark": {
+        "role": "neutral",
+        "displayName": "Own Message Deep Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.1291 264.30)",
+          "oklch(26.43% 0.1291 264.30)",
+          "oklch(37.86% 0.1291 264.30)",
+          "oklch(49.29% 0.1291 264.30)",
+          "oklch(60.71% 0.1291 264.30)",
+          "oklch(72.14% 0.1291 264.30)",
+          "oklch(83.57% 0.1291 264.30)",
+          "oklch(95.00% 0.1291 264.30)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 89.88)",
+          "oklch(26.43% 0.0000 89.88)",
+          "oklch(37.86% 0.0000 89.88)",
+          "oklch(49.29% 0.0000 89.88)",
+          "oklch(60.71% 0.0000 89.88)",
+          "oklch(72.14% 0.0000 89.88)",
+          "oklch(83.57% 0.0000 89.88)",
+          "oklch(95.00% 0.0000 89.88)"
+        ]
+      },
+      "button-ink-dark": {
+        "role": "primary",
+        "displayName": "Dark Action Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0575 259.89)",
+          "oklch(26.43% 0.0575 259.89)",
+          "oklch(37.86% 0.0575 259.89)",
+          "oklch(49.29% 0.0575 259.89)",
+          "oklch(60.71% 0.0575 259.89)",
+          "oklch(72.14% 0.0575 259.89)",
+          "oklch(83.57% 0.0575 259.89)",
+          "oklch(95.00% 0.0575 259.89)"
+        ]
+      },
+      "rail-selected": {
+        "role": "primary",
+        "displayName": "Pale Blue Rail Selection",
+        "tonalRamp": [
+          "oklch(15.00% 0.0374 267.35)",
+          "oklch(26.43% 0.0374 267.35)",
+          "oklch(37.86% 0.0374 267.35)",
+          "oklch(49.29% 0.0374 267.35)",
+          "oklch(60.71% 0.0374 267.35)",
+          "oklch(72.14% 0.0374 267.35)",
+          "oklch(83.57% 0.0374 267.35)",
+          "oklch(95.00% 0.0374 267.35)"
+        ]
+      },
+      "rail-selected-ink": {
+        "role": "primary",
+        "displayName": "Rail Selection Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.1012 263.52)",
+          "oklch(26.43% 0.1012 263.52)",
+          "oklch(37.86% 0.1012 263.52)",
+          "oklch(49.29% 0.1012 263.52)",
+          "oklch(60.71% 0.1012 263.52)",
+          "oklch(72.14% 0.1012 263.52)",
+          "oklch(83.57% 0.1012 263.52)",
+          "oklch(95.00% 0.1012 263.52)"
+        ]
+      },
+      "rail-selected-detail": {
+        "role": "primary",
+        "displayName": "Rail Selection Detail",
+        "tonalRamp": [
+          "oklch(15.00% 0.1272 262.58)",
+          "oklch(26.43% 0.1272 262.58)",
+          "oklch(37.86% 0.1272 262.58)",
+          "oklch(49.29% 0.1272 262.58)",
+          "oklch(60.71% 0.1272 262.58)",
+          "oklch(72.14% 0.1272 262.58)",
+          "oklch(83.57% 0.1272 262.58)",
+          "oklch(95.00% 0.1272 262.58)"
+        ]
+      },
+      "rail-hover": {
+        "role": "primary",
+        "displayName": "Slate Rail Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.0633 261.53)",
+          "oklch(26.43% 0.0633 261.53)",
+          "oklch(37.86% 0.0633 261.53)",
+          "oklch(49.29% 0.0633 261.53)",
+          "oklch(60.71% 0.0633 261.53)",
+          "oklch(72.14% 0.0633 261.53)",
+          "oklch(83.57% 0.0633 261.53)",
+          "oklch(95.00% 0.0633 261.53)"
+        ]
+      },
+      "rail-focus": {
+        "role": "primary",
+        "displayName": "Pale Blue Rail Focus",
+        "tonalRamp": [
+          "oklch(15.00% 0.0762 268.35)",
+          "oklch(26.43% 0.0762 268.35)",
+          "oklch(37.86% 0.0762 268.35)",
+          "oklch(49.29% 0.0762 268.35)",
+          "oklch(60.71% 0.0762 268.35)",
+          "oklch(72.14% 0.0762 268.35)",
+          "oklch(83.57% 0.0762 268.35)",
+          "oklch(95.00% 0.0762 268.35)"
+        ]
+      },
+      "unread": {
+        "role": "secondary",
+        "displayName": "Unread",
+        "tonalRamp": [
+          "oklch(15.00% 0.1554 21.13)",
+          "oklch(26.43% 0.1554 21.13)",
+          "oklch(37.86% 0.1554 21.13)",
+          "oklch(49.29% 0.1554 21.13)",
+          "oklch(60.71% 0.1554 21.13)",
+          "oklch(72.14% 0.1554 21.13)",
+          "oklch(83.57% 0.1554 21.13)",
+          "oklch(95.00% 0.1554 21.13)"
+        ]
+      },
+      "chat-time-mine": {
+        "role": "neutral",
+        "displayName": "Own Message Timestamp",
+        "tonalRamp": [
+          "oklch(15.00% 0.0317 266.17)",
+          "oklch(26.43% 0.0317 266.17)",
+          "oklch(37.86% 0.0317 266.17)",
+          "oklch(49.29% 0.0317 266.17)",
+          "oklch(60.71% 0.0317 266.17)",
+          "oklch(72.14% 0.0317 266.17)",
+          "oklch(83.57% 0.0317 266.17)",
+          "oklch(95.00% 0.0317 266.17)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Login introduction only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Use for the corresponding shipped interface role."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Use for the corresponding shipped interface role."
+      },
+      "subheading": {
+        "displayName": "Subheading",
+        "purpose": "Use for the corresponding shipped interface role."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Thai request and conversation reading."
+      },
+      "row-title": {
+        "displayName": "Row Title",
+        "purpose": "Use for the corresponding shipped interface role."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Use for the corresponding shipped interface role."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Use for the corresponding shipped interface role."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Compact contextual information; not request body text."
+      },
+      "status": {
+        "displayName": "Status",
+        "purpose": "Use for the corresponding shipped interface role."
+      },
+      "metric": {
+        "displayName": "Metric",
+        "purpose": "Tabular administration counts."
+      }
+    },
+    "shadows": [
+      {
+        "name": "dialog",
+        "value": "0 18px 60px rgba(14,28,51,.22)",
+        "purpose": "Modal separation; bound to --shadow-dialog in both themes."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-state",
+        "value": "background-color 160ms ease-out, color 160ms ease-out",
+        "purpose": "Button hover/state color changes; disabled under prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1250px"
+      },
+      {
+        "name": "narrow-desktop",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile",
+        "value": "900px"
+      },
+      {
+        "name": "short-desktop-height",
+        "value": "800px"
+      }
+    ],
+    "focus": [
+      {
+        "name": "control",
+        "value": "3px solid var(--accent); outline-offset: 3px",
+        "purpose": "Keyboard focus on interactive controls."
+      },
+      {
+        "name": "compound-field",
+        "value": "2px solid var(--accent); outline-offset: 2px",
+        "purpose": "Search and chat focus-within."
+      }
+    ],
+    "provenance": {
+      "sourceFiles": [
+        "frontend/src/style.css",
+        "frontend/src/workspace.css",
+        "frontend/src/fonts.css",
+        "frontend/src/icons.jsx",
+        "frontend/src/main.jsx",
+        "frontend/src/admin.jsx",
+        "frontend/src/departments.js",
+        "frontend/src/realtime.js"
+      ],
+      "fontLicense": "frontend/public/fonts/OFL.txt",
+      "rasterArtwork": "None shipping.",
+      "tonalRamps": "Synthesized OKLCH preview ramps from the shipped blue/slate and semantic colors, not additional application colors."
+    },
+    "layout": {
+      "desktopShell": "100dvh; 232px sidebar; 60px topbar",
+      "desktopInbox": "minmax(300px,.65fr) minmax(450px,1.35fr); 18px inline margins",
+      "desktopDetailScroll": "@media(min-width:901px): detail-body overflow-y:auto and scroll-padding-block:12px; optional request/activity sections max-height:none and overflow:visible",
+      "desktopConversation": "flex:1 0 500px; min-height:500px; feed min-height:320px; composer flex-shrink:0",
+      "shortDesktopFeed": "@media(max-height:800px) and (min-width:901px): flex:none; height:320px; max-height:320px",
+      "mobileConversation": "@media(max-width:900px): document flow; conversation height:auto and min-height:0; feed flex:none, height:320px, max-height:420px",
+      "expandedDesktop": "@media(min-width:901px): sidebar, workspace metrics and footer hide; inbox minmax(320px,.55fr) minmax(480px,1.45fr)"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The next service action, with semantic light/dark color and visible focus.",
+      "html": "<button class=\"ds-primary\">รับงาน · เริ่มดำเนินการ <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-5-5 5 5-5 5\"/></svg></button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:44px;border-radius:8px;padding:10px 17px;font:600 15px/1.5 'Noto Sans Thai', sans-serif;cursor:pointer;transition:background-color 160ms ease-out,color 160ms ease-out;background:var(--accent, #315ac5);color:#fff;border:1px solid transparent}.ds-primary:hover:not(:disabled){background:var(--accent-hover, #25479e)}.ds-primary:focus-visible{outline:3px solid var(--accent, #315ac5);outline-offset:3px;}.ds-primary:disabled{cursor:not-allowed;opacity:.6}:host-context([data-theme=\"dark\"]) .ds-primary{color:#132440}@media(prefers-reduced-motion:reduce){button{transition:none}}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A bounded companion action such as cancellation.",
+      "html": "<button class=\"ds-secondary\">ยกเลิก</button>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:44px;border-radius:8px;padding:10px 17px;font:600 15px/1.5 'Noto Sans Thai', sans-serif;cursor:pointer;transition:background-color 160ms ease-out,color 160ms ease-out;background:var(--surface, #fff);color:var(--ink, #23324a);border:1px solid var(--line, #dce2eb)}.ds-secondary:hover:not(:disabled){background:var(--selected, #eaf0ff)}.ds-secondary:focus-visible{outline:3px solid var(--accent, #315ac5);outline-offset:3px;}.ds-secondary:disabled{cursor:not-allowed;opacity:.6}@media(prefers-reduced-motion:reduce){button{transition:none}}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "A quiet auxiliary action with underline feedback.",
+      "html": "<button class=\"ds-text\">ดูคิวทั้งหมด</button>",
+      "css": ".ds-text{display:inline-flex;align-items:center;gap:8px;color:var(--accent, #315ac5);background:none;border:0;padding:8px 10px;min-height:40px;font:600 16px 'Noto Sans Thai', sans-serif;cursor:pointer;transition:background-color 160ms ease-out,color 160ms ease-out}.ds-text:hover:not(:disabled){text-decoration:underline;text-underline-offset:4px}.ds-text:focus-visible{outline:3px solid var(--accent, #315ac5);outline-offset:3px;}.ds-text:disabled{opacity:.6;cursor:not-allowed}@media(prefers-reduced-motion:reduce){button{transition:none}}"
+    },
+    {
+      "name": "Search field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "A compound queue search with visible container focus.",
+      "html": "<label class=\"ds-search\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"7\"/><path d=\"m16 16 5 5\"/></svg><input aria-label=\"ค้นหา Ticket\" placeholder=\"ค้นหา Ticket หรือหัวข้อ…\"/></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:8px;border:1px solid var(--line, #dce2eb);background:var(--surface, #fff);border-radius:8px;padding:0 10px;color:var(--muted, #59697f)}.ds-search:focus-within{outline:2px solid var(--accent, #315ac5);outline-offset:2px}.ds-search input{width:100%;min-width:0;min-height:44px;padding:10px 0;border:0;outline:none;background:none;color:var(--ink, #23324a);font:400 14px 'Noto Sans Thai', sans-serif;caret-color:var(--accent, #315ac5)}.ds-search input::placeholder{color:var(--muted, #59697f);opacity:1}.ds-search svg{flex-shrink:0}"
+    },
+    {
+      "name": "Slate navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Pale labels and blue selection frame the five-department workspace.",
+      "html": "<nav class=\"ds-rail\" aria-label=\"คิวงาน\"><button class=\"ds-nav ds-active\" aria-current=\"page\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m3 3-2 12v6h22v-6L21 3zM1 15h6l2 3h6l2-3h6\"/></svg>คำขอทั้งหมด<b>12</b></button><button class=\"ds-nav\">ฝ่ายเทคโนโลยีสารสนเทศ (IT)<b>8</b></button></nav>",
+      "css": ".ds-rail{background:var(--rail, #202d48);padding:16px;color:var(--rail-ink, #f3f6ff);max-width:300px}.ds-nav{min-height:43px;display:flex;align-items:center;gap:11px;width:100%;text-align:left;border:0;border-radius:8px;background:none;color:var(--rail-ink, #f3f6ff);padding:10px 12px;font:400 14px 'Noto Sans Thai', sans-serif;margin:2px 0;cursor:pointer;transition:background-color 160ms ease-out,color 160ms ease-out}.ds-nav b{margin-left:auto;font-size:13px;font-weight:500;font-variant-numeric:tabular-nums;color:var(--rail-muted, #bdc9e1)}.ds-nav:hover{background:#304365}.ds-nav.ds-active{background:#dae5ff;color:#233d75;font-weight:600}.ds-active b,.ds-active svg{color:#284c95}.ds-nav:focus-visible{outline:3px solid #b7cbff;outline-offset:3px}@media(prefers-reduced-motion:reduce){button{transition:none}}"
+    },
+    {
+      "name": "Status tags",
+      "kind": "chip",
+      "refersTo": "status-open",
+      "description": "Text and tone identify pending, progressing and completed work.",
+      "html": "<div class=\"ds-tags\"><span class=\"ds-status ds-open\"><i></i>รอดำเนินการ</span><span class=\"ds-status ds-progress\"><i></i>กำลังดำเนินการ</span><span class=\"ds-status ds-done\"><i></i>เสร็จแล้ว</span></div>",
+      "css": ".ds-tags{display:flex;flex-wrap:wrap;gap:8px}.ds-status{display:inline-flex;align-items:center;gap:6px;border-radius:5px;padding:3px 7px;font:600 12px/1.6 'Noto Sans Thai', sans-serif;white-space:nowrap}.ds-status i{width:7px;height:7px;border-radius:50%;background:currentColor}.ds-open{color:var(--open, #895406);background:var(--open-bg, #fff2d8)}.ds-progress{color:var(--progress, #6946a3);background:var(--progress-bg, #f0eafa)}.ds-done{color:var(--done, #1c6647);background:var(--done-bg, #e4f4e9)}"
+    },
+    {
+      "name": "Working panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Flat, bounded content for service administration.",
+      "html": "<section class=\"ds-panel\"><h2>ภาระงานของฝ่าย</h2><p>ดูคำขอที่ยังรอดำเนินการ</p></section>",
+      "css": ".ds-panel{background:var(--surface, #fff);color:var(--ink, #23324a);border:1px solid var(--line, #dce2eb);border-radius:12px;padding:24px;min-width:0;font-family:'Noto Sans Thai', sans-serif}.ds-panel h2{margin:0;font-size:19px;line-height:1.5;font-weight:700}.ds-panel p{margin:5px 0 0;color:var(--muted, #59697f);font-size:13px;line-height:1.75}@media(max-width:1250px){.ds-panel{padding:20px}}@media(max-width:900px){.ds-panel{padding:18px 16px}}"
+    },
+    {
+      "name": "Request journey",
+      "kind": "custom",
+      "refersTo": "journey",
+      "description": "A compact numbered strip shows the three service stages.",
+      "html": "<ol class=\"ds-journey\" aria-label=\"ขั้นตอนคำขอ\"><li class=\"ds-reached\"><span>1</span>รอดำเนินการ</li><li class=\"ds-reached\"><span>2</span>กำลังดำเนินการ</li><li><span>3</span>เสร็จแล้ว</li></ol>",
+      "css": ".ds-journey{display:flex;padding:0;margin:0 0 16px;list-style:none;gap:6px}.ds-journey li{display:flex;align-items:center;justify-content:center;gap:7px;flex:1;padding:8px 3px;color:var(--muted, #59697f);background:var(--surface-soft, #f5f7fa);border-radius:5px;font:400 11px 'Noto Sans Thai', sans-serif;white-space:nowrap}.ds-journey li.ds-reached{color:var(--done, #1c6647);background:var(--done-bg, #e4f4e9)}.ds-journey span{display:grid;place-items:center;border:1px solid currentColor;border-radius:50%;width:18px;height:18px;font-size:10px;flex-shrink:0}@media(max-width:1000px){.ds-journey{gap:3px}.ds-journey li{font-size:10px;gap:4px}}@media(max-width:900px){.ds-journey li{padding:8px 2px}.ds-journey span{width:16px;height:16px}}"
+    },
+    {
+      "name": "Conversation bubbles",
+      "kind": "custom",
+      "refersTo": "chat-feed",
+      "description": "Cool conversation ground and directional blue own-message bubbles.",
+      "html": "<div class=\"ds-feed\"><article class=\"ds-message ds-theirs\"><div class=\"ds-author\"><b>เจ้าหน้าที่</b><time>10:24</time></div><p>กำลังตรวจสอบคำขอให้ค่ะ</p></article><article class=\"ds-message ds-mine\"><div class=\"ds-author\"><b>คุณ · พนักงาน</b><time>10:25</time></div><p>ขอบคุณค่ะ</p></article></div>",
+      "css": ".ds-feed{display:flex;flex-direction:column;gap:14px;background:var(--chat-ground, #edf0f5);border-radius:10px;padding:18px 14px;min-height:320px;height:320px;max-height:none;overflow-y:auto;font-family:'Noto Sans Thai', sans-serif}.ds-message{max-width:88%;border-radius:12px;padding:12px 14px}.ds-theirs{align-self:flex-start;background:var(--surface, #fff);color:var(--ink, #23324a);border-bottom-left-radius:4px}.ds-mine{align-self:flex-end;background:var(--chat-mine, #315ac5);color:#fff;border-bottom-right-radius:4px}.ds-author{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;font-size:11px}.ds-author b{font-weight:600}.ds-author time{font-size:10px;color:var(--muted, #59697f)}.ds-mine time{color:#dfe9ff}.ds-message p{font-size:16px;line-height:1.75;margin:5px 0 0;white-space:pre-wrap;overflow-wrap:anywhere}@media(max-width:900px){.ds-feed{height:320px;max-height:420px;padding:15px 10px}.ds-message{max-width:93%;padding:11px 12px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Contemporary Thai Office Wayfinding",
+    "overview": "TicketCenter gives internal service work the clarity of contemporary Thai office wayfinding: a slate navigation rail, cool working surfaces and readable department names. The confirmed familiar inbox structure supports quick scanning and a clear next action.\n\nThe interface is practical and moderately dense. Flat rows, restrained borders and blue selection carry hierarchy; generous Thai line spacing keeps requests and conversations readable. Login, employee, agent and administration views share this visual language, and dark mode preserves the same structure.",
+    "keyCharacteristics": [
+      "Slate navigation with a pale blue active item.",
+      "Cool neutral work and conversation surfaces.",
+      "Thai typography with clear titles, compact metadata and tabular counts.",
+      "Text-labeled status, visible unread counts and a compact three-stage request strip.",
+      "Flat panels with depth reserved for dialogs."
+    ],
+    "rules": [
+      {
+        "name": "State Has a Label",
+        "body": "Pair status color with a readable status label; dots, tint and unread counts supplement text.",
+        "section": "colors"
+      },
+      {
+        "name": "Thai Reading Space",
+        "body": "Use the shipped Noto Sans Thai weights and preserve the generous line height of request and chat text.",
+        "section": "typography"
+      },
+      {
+        "name": "Dialog Depth",
+        "body": "Use the dialog shadow for modal separation; ordinary working panels and ticket rows remain flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use full Thai department names in navigation, filters and request context; short IT/HR/FAC/FIN/PROC marks may identify compact avatars.",
+      "Do reuse semantic custom properties so light and dark modes keep the same hierarchy.",
+      "Do keep status words, ownership and the next service action legible.",
+      "Do preserve visible keyboard focus and honor reduced motion.",
+      "Do preserve the familiar rail, queue and detail organization, with a labeled return from mobile detail."
+    ],
+    "donts": [
+      "Don't replace Thai text labels with color or icons alone.",
+      "Don't add decorative dashboard cards that compete with service actions.",
+      "Don't add shadows to ordinary rows and working panels.",
+      "Don't add a second display face or fetch fonts from an external service at runtime."
+    ]
+  }
+}

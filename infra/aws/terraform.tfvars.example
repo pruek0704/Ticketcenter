@@ -1,0 +1,5 @@
+aws_region = "ap-southeast-1"
+certificate_arn = "arn:aws:acm:ap-southeast-1:123456789012:certificate/replace-me"
+web_image = "123456789012.dkr.ecr.ap-southeast-1.amazonaws.com/ticketcenter-web:replace-me"
+api_image = "123456789012.dkr.ecr.ap-southeast-1.amazonaws.com/ticketcenter-api:replace-me"
+jwt_secret_arn = "arn:aws:secretsmanager:ap-southeast-1:123456789012:secret:replace-me"
